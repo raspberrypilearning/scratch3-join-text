@@ -1,59 +1,26 @@
-## Introduction
+You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Drag a `join`{:class="block3operators"} block into the block where you want to use it:
 
-### What you will make
+```blocks3
+say (join [apple ] [banana]) for [2] seconds)
+```
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Replace the text with the text you want to use, or drag in a variable:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+```blocks3
+set [name v] to [Scratch]
+say (join [Hi, I'm ] (name)) for [2] seconds
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them. 
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
 
-+ A computer or tablet capable of running Scratch 3
+```blocks3
+say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
+```
 
-### Software
+Notice the <kbd>space</kbd> at the end of `Hi, I'm ` and the beginning of ` the cat`.
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
 
-### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
