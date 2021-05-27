@@ -3,7 +3,7 @@ You can use the `join`{:class="block3operators"} block from the `Operators`{:cla
 Drag a `join`{:class="block3operators"} block into the block where you want to use it:
 
 ```blocks3
-say (join [apple ] [banana])) for [2] seconds
+say (join [apple ] [banana]) for [2] seconds
 ```
 
 Replace the text with the text you want to use, or drag in a variable:
