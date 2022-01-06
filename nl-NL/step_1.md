@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+Je kunt het `voeg ... en ... samen`{:class="block3operators"} blok uit `Functies`{:class="block3operators"} gebruiken om tekst en variabelen samen te voegen om langere strings te maken.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+Sleep een `voeg ... en ... samen`{:class="block3operators"} blok in het blok waar je het wilt gebruiken:
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+Vervang de tekst door de tekst die je wilt gebruiken, of sleep er een variabele in:
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**Tip:** Het `voeg ... en ... samen`{:class="block3operators"} blok voegt geen spaties toe, dus je moet ze zelf typen.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+Je kunt een `voeg ... en ... samen`{:class="block3operators"} blok in een ander `voeg ... en ... samen`{:class="block3operators"} blok slepen om nog langere strings te maken:
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+Let op de 'spatie' aan het einde van `Hallo, ik ben` en voor het begin van `de kat`.
 
 
 
