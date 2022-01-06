@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+Galli di ddefnyddio'r bloc `uno`{:class="block3operators"} o'r bloc `Gweithredwyr`{:class="block3operators"} i uno testun a newidynnau i greu llinynau hirach.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+Llusga floc `uno`{:class="block3operators"} i mewn i'r bloc lle rwyt ti am ei ddefnyddio:
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+Amnewidia'r testun am y testun rwyt ti am ei ddefnyddio, neu lusgo newidyn i mewn:
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**Awgrym:** Dydy'r bloc `uno`{: class = "block3operators"} ddim yn ychwanegu bylchau felly bydd angen i ti eu teipio.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+Galli di lusgo bloc `uno`{:class="block3operators"} i mewn i floc `uno`{:class="block3operators"} arall i greu llinynau testun hirach:
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+Sylwa ar y 'bwlch' ar ddiwedd `Helo, fy enw i ydy` ac ar ddechrau `y gath`.
 
 
 
