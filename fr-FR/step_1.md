@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+Tu peux utiliser le bloc `regrouper`{:class="block3operators"} du bloc `Operateurs`{:class="block3operators"} pour regrouper du texte et des variables afin de créer des chaînes plus longues.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+Fais glisser un bloc `regrouper`{:class="block3operators"} dans le bloc où tu souhaites l'utiliser :
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+Remplace le texte par le texte que tu souhaites utiliser ou fais glisser une variable :
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**Astuce :** Le bloc `regrouper`{:class="block3operators"} n'ajoute pas d'espaces, tu devras donc les saisir.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+Tu peux faire glisser un bloc `regrouper`{:class="block3operators"} dans un autre `regrouper`{:class="block3operators"} pour créer des chaînes de texte plus longues :
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+Remarque l'espace à la fin de `Salut, je suis` et au début `du chat`.
 
 
 
