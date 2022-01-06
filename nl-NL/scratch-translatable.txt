@@ -1,5 +1,5 @@
-name
+naam
 
-Hi, I'm
+Hoi, ik ben
 
-the cat
+de kat
