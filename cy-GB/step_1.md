@@ -3,7 +3,7 @@ Galli di ddefnyddio'r bloc `uno`{:class="block3operators"} o'r bloc `Gweithredwy
 Llusga floc `uno`{:class="block3operators"} i mewn i'r bloc lle rwyt ti am ei ddefnyddio:
 
 ```blocks3
-say (join [apple ] [banana]) for [2] seconds
+say (join [afal ] [banana]) for [2] seconds
 ```
 
 Amnewidia'r testun am y testun rwyt ti am ei ddefnyddio, neu lusgo newidyn i mewn:
