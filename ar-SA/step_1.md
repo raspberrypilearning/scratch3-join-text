@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+يمكنك استخدام `اربط`{:class="block3operators"} من كتلة `العمليات`{:class="block3operators"}لضم النص والمتغيرات لإنشاء نصوص أطول.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+اسحب `اربط`{:class="block3operators"} إلى الكتلة حيث تريد استخدامها:
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+استبدل النص بالنص الذي تريد استخدامه ، أو اسحب متغيرًا:
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**نصيحة: كتلة ** `اربط`{:class="block3operators"} لا تضيف مسافات لذلك سوف تحتاج إلى كتابتها.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+يمكنك سحب كتلة `اربط`{:class="block3operators"} داخل كتلة `اربط`{:class="block3operators"}ثانية لإنشاء سلاسل نصية أطول:
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+لاحظ "الفراغ" في نهاية `مرحبًا ، أنا` وبداية `القط`.
 
 
 
