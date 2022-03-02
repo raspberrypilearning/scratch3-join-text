@@ -21,7 +21,7 @@ You can drag a `join`{:class="block3operators"} block inside another `join`{:cla
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm ` and the beginning of ` the cat`.
+Notice the 'space' at the end of `Hi, I'm ` and the beginning of `the cat`.
 
 
 
