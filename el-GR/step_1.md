@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+Μπορείς να χρησιμοποιήσεις το μπλοκ`ένωσε`{:class="block3operators"} από το μπλοκ `Τελεστές`{:class="block3operators"} για να ενώσεις κείμενο και μεταβλητές για να δημιουργήσεις μεγαλύτερες συμβολοσειρές.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+Σύρε ένα μπλοκ`ένωσε`{:class="block3operators"} στο μπλοκ που θέλεις να το χρησιμοποιήσεις:
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+Αντικατάστησε το κείμενο με το κείμενο που θέλεις να χρησιμοποιήσεις ή σύρε μια μεταβλητή:
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**Συμβουλή:** Το μπλοκ`ένωσε`{:class="block3operators"} δεν προσθέτει κενά, επομένως θα χρειαστεί να τα πληκτρολογήσεις.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+Μπορείς να σύρεις ένα μπλοκ`ένωσε`{:class="block3operators"} μέσα σε ένα άλλο `ένωσε`{:class="block3operators"} για να δημιουργήσεις μεγαλύτερες συμβολοσειρές κειμένου:
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+Παρατήρησε το "κενό" στο τέλος του `Γεια, είμαι` και στην αρχή του `η γάτα`.
 
 
 
