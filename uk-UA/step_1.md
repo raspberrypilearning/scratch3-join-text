@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+Ти можеш скористатися блоком `з'єднати`{:class="block3operators"}, який знаходиться на вкладці Коду `Оператори`{:class="block3operators"}, щоб з'єднати текст та змінні для створення довших рядків.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+Перетягни блок `з'єднати`{:class="block3operators"} в блок, де ти хочеш його використати:
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+Зміни текст на потрібний тобі текст, або перетягни змінну:
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**Порада:** Блок `з'єднати`{:class="block3operators"} не додає пробілів, тому їх потрібно вводити вручну.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+Ти можеш перетягнути блок `з'єднати`{:class="block3operators"} всередину іншого блоку `з'єднати`{:class="block3operators"}, щоб створювати довші рядки тексту:
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+Зверни увагу на 'пробіл' в кінці `Привіт, я` та на початку `кіт`.
 
 
 
