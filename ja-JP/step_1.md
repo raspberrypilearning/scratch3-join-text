@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+`演算`{:class="block3operators"}ブロックの`...と...`{:class="block3operators"}ブロックを使用してテキストと変数を結合し、より長い文字列を作成できます。
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+`...と...`{:class="block3operators"}ブロックを使用したいブロックへドラッグします。
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+テキストを使用したいテキストに置き換えるか変数をドラッグします。
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**ヒント:** `...と...`{:class="block3operators"}ブロックはスペースを追加しないので、スペースを入力する必要があります。
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+`...と...`{:class="block3operators"}ブロックを別の`...と...`{:class="block3operators"}内へドラッグすると、より長いテキスト文字列を作成できます。
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+`やあ、私は猫の`の末尾と`です`の先頭にある「スペース」に注目してください（訳注: 英語では単語間にスペースが必要なのでこの説明がありますが、日本語では特に必要ありません）。
 
 
 
