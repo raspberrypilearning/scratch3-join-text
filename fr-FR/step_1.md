@@ -18,7 +18,7 @@ say (join [Salut je suis ] (nom)) for [2] seconds
 Tu peux faire glisser un bloc `regrouper`{:class="block3operators"} dans un autre `regrouper`{:class="block3operators"} pour créer des chaînes de texte plus longues :
 
 ```blocks3
-say (join [Hi, I'm ] (join (nom) [ le chat])) for [2] seconds
+say (join [Salut, je suis ] (join (nom) [ le chat])) for [2] seconds
 ```
 
 Remarque l'espace à la fin de `Salut, je suis` et au début `du chat`.
