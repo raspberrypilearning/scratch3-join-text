@@ -1,5 +1,5 @@
-name
+imię
 
-Hi, I'm
+Cześć, jestem
 
-the cat
+kot
