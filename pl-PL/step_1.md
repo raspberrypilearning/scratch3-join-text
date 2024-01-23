@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+Możesz użyć bloku `połącz`{:class="block3operators"} z bloku `Wyrażenia`{:class="block3operators"}, aby połączyć tekst i zmienne w celu utworzenia dłuższych wyrażeń.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+Przeciągnij blok `Połącz`{:class="block3operators"} do innego bloku, w którym chcesz go użyć:
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+Zastąp przykładowy tekst wyrażeniem, którego chcesz użyć, lub przeciągnij i dodaj zmienną:
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**Wskazówka:** Blok `połącz`{:class="block3operators"} nie dodaje spacji, więc będziesz musiał je wpisać.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+Możesz przeciągnąć blok `połącz`{:class="block3operators"} do innego bloku `połącz`{:class="block3operators"}, aby tworzyć dłuższe ciągi tekstowe:
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+Zwróć uwagę na „spację” na końcu `Cześć, jestem` i przed słowem`kot`.
 
 
 
