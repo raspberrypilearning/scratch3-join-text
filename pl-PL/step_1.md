@@ -21,7 +21,7 @@ Możesz przeciągnąć blok `połącz`{:class="block3operators"} do innego bloku
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Zwróć uwagę na „spację” na końcu `Cześć, jestem` i przed słowem`kot`.
+Zwróć uwagę na „spację” na końcu `Cześć, jestem` i `kot`.
 
 
 
