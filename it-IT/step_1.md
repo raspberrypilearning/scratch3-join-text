@@ -1,27 +1,27 @@
-You can use the `join`{:class="block3operators"} block from the `Operators`{:class="block3operators"} block to join text and variables to make longer strings.
+Puoi utilizzare il blocco `unisci`{:class="block3operators"} dal blocco `Operatori`{:class="block3operators"} per combinare testo e variabili, creando stringhe più lunghe.
 
-Drag a `join`{:class="block3operators"} block into the block where you want to use it:
+Trascina un blocco `unisci`{:class="block3operators"} nel blocco in cui desideri utilizzarlo:
 
 ```blocks3
 say (join [apple ] [banana]) for [2] seconds
 ```
 
-Replace the text with the text you want to use, or drag in a variable:
+Sostituisci il testo con quello che desideri utilizzare oppure trascina una variabile:
 
 ```blocks3
 set [name v] to [Scratch]
 say (join [Hi, I'm ] (name)) for [2] seconds
 ```
 
-**Tip:** The `join`{:class="block3operators"} block doesn't add spaces so you will need to type them.
+**Suggerimento:** il blocco `unisci`{:class="block3operators"} non aggiunge spazi automaticamente, quindi dovrai inserirli manualmente.
 
-You can drag a `join`{:class="block3operators"} block inside another `join`{:class="block3operators"} to create longer text strings:
+Puoi trascinare un blocco `unisci`{:class="block3operators"} dentro un altro blocco `unisci`{:class="block3operators"} per creare stringhe di testo più lunghe:
 
 ```blocks3
 say (join [Hi, I'm ] (join (name) [ the cat])) for [2] seconds
 ```
 
-Notice the 'space' at the end of `Hi, I'm` and the beginning of `the cat`.
+Nota lo "spazio" alla fine di `Ciao, sono` e all'inizio di `il gatto`.
 
 
 
